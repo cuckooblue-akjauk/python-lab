@@ -1,0 +1,11 @@
+[project]
+name = "python-lab"
+version = "0.1.0"
+description = "Sandbox for trying out Python experiments"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
